@@ -109,15 +109,17 @@ figcaption p, figcaption a {
 }
 
 figcaption a {
-    color: #ff2525;
+    color: #ffffff;
     font-size: 14px;
     font-family: "Raleway", sans-serif;
     cursor: pointer;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
 figcaption a:hover {
-    text-decoration: underline;
+    color: #ff0000;
+    width: fit-content;
 }
 
 figure:hover figcaption {
